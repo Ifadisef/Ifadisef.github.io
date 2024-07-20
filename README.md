@@ -1,1 +1,0 @@
-# bomposk.github.io
