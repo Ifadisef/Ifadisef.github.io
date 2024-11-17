@@ -348,6 +348,43 @@ text-align: center;}
     height: auto;
 }
 
+#projects-slider {
+    margin: 0 auto; /* Center the carousel container */
+    padding: 20px 0; /* Add some spacing above and below */
+}
+
+.owl-carousel .owl-stage-outer {
+    margin: 0 auto; /* Center the stage wrapper */
+}
+
+.owl-carousel .owl-item {
+    text-align: center; /* Center item content */
+}
+
+.owl-carousel img {
+    margin: 0 auto; /* Center images within their items */
+}
+
+.owl-dots {
+    text-align: center; /* Center dots below the carousel */
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Align nav arrows to edges */
+}
+
+.owl-nav button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #333;
+}
+
+
 .team-member {
     text-align: center;
 }
